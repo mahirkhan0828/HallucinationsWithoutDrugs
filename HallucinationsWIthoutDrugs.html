@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+	<style>
+    	body {
+        	animation-name: color-change;
+        	animation-duration: 3s;
+        	animation-fill-mode: forwards;
+        }
+        @keyframes color-change {
+        	0% {
+        		background-color: #C5C6C7
+        	}
+        	100% {
+        		background-color: #0B0C10;
+        	}
+        }
+        h1 {
+        	font-size: 70px;
+        }
+        h2 {
+        	font-size: 50px;
+        }
+        p {
+        	font-size: 30px;
+        }
+        ul {
+        	font-size: 20px;
+        }
+        .title-color {
+        	color: #66FCF1;
+        }
+        .text-color {
+        	color: #C5C6C7;
+        }
+        .heading-color {
+        	color: #45A29E;
+        }
+        #leftside {
+        	width: 60%;
+            float: left;
+        }
+        #rightside {
+        	width: 40%;
+            float: right;
+        }
+        #left {
+        	width: 100%;
+            float: left;
+        }
+        #moving-ball { 
+            width:75px; 
+            height:75px; 
+            position: relative; 
+            left: 40%;
+            top: 250px;
+            border-radius: 50%;
+            animation-name: ball;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            
+           }
+           @keyframes ball {
+           	0% {
+           		background-color: #C5C6C7; 
+           		left: 15%;
+           	}
+           	50% {
+           		background-color: #45A29E;
+           		left: 50%;
+           	}
+           	100% {
+           		left: 15%;
+           		background-color: #C5C6C7;
+           	}
+           }        
+	</style>
+			
+	<head>
+	    <title>Hallucinations Without Drugs</title>
+	    <h1 class ="title-color"><center>Hallucinations Without Drugs</center></h1>		
+	</head>		
+	
+	<body>
+    	<img id = "rightside"  src = "https://img.huffingtonpost.com/asset/5bad8fd72400003100962cf8.gif?ops=scalefit_630_noupscale"> 
+    	
+        <p class = "text-color" id = "leftside">While experiencing visual illusions do not show personality traits as some may suggest, it can be a fun encounter when trying to mess with your senses. After viewing a moving stimulus for a while, and then focusing your eyes on a stationary object, you can encounter the <q>motion aftereffect</q>. Neurons get used to the movements and adapt to the impulses. </p>
+        
+        <h2 id = "left" class = "heading-color" >Instructions</h2>
+        <div id = "moving-ball"></div>
+        
+        <p class = "text-color" id = "left">Below are some illusions that will tamper with your perception. They are separated into 	four levels with increasing intensities. When watching these 	videos, make sure that you are staring at the middle of the illusion, which usually consists of a dot and for the full effect, do not blink. After viewing these stimuli, find a wall, or a stationary object. </p>
+        <p class = "title-color">WARNING</p>
+        <p class = "text-color" >While optical illusions are proven not to harm your eyes, if you stare at an image on the computer screen for too long it can cause: </p>
+        <ul class = "text-color" >
+        	<li>Eye Strain</li>
+            <li>Sore/Itchy Eyes</li>
+            <li>Blurred Vision</li>
+            <li>Dry or Watery Eyes</li>
+        </ul>
+       
+       <p class = "text-color">If you are prone to seizures, TURN AWAY NOW!</p>
+       <p class = "text-color">Otherwise. Prepare to be Amazed</p>
+        
+        <h2 class = "heading-color">Level 1: Easy Peasy</h2>
+        <iframe width="1200" height="800" src="https://www.youtube.com/embed/vNWB6V6fHq8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <hr>
+        
+        <h2 class = "heading-color">Level 2: Hmmmm, Okay</h2>
+        <iframe width="1200" height="800" src="https://www.youtube.com/embed/CplOB-4XKMU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <hr>
+        
+        <h2 class = "heading-color">Level 3: Yikes</h2>
+        <iframe width="1200" height="800" src="https://www.youtube.com/embed/brHHIqTTsig" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <hr>
+        
+        
+        <h2 class = "heading-color">Level 4: Beware</h2>
+        <iframe width="1200" height="800" src="https://www.youtube.com/embed/reTCf1Phq14" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        	
+	</body>
+</html>
